@@ -1,4 +1,4 @@
-package com.java.dao;
+/*package com.java.dao;
 
 import java.awt.List;
 
@@ -16,8 +16,8 @@ public class EventDao {
 	}
 	
 	public java.util.List<Event> saveEmployee(){  
-	   /* String query="insert into event values( "
-	   	+ "'"+e.getId()+"','"+e.getName()+"')" ;*/
+	    String query="insert into event values( "
+	   	+ "'"+e.getId()+"','"+e.getName()+"')" ;
 		String query = "select * from event";
 		//System.out.println(query);
 	    //jdbcTemplate.execute(query);
@@ -28,3 +28,4 @@ public class EventDao {
 	
 	
 }
+*/

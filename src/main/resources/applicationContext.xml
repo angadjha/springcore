@@ -4,20 +4,20 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <!-- connection id user  -->
-<bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+<!-- <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
         <property name="url" value="jdbc:mysql://54.229.144.175:3306/cb_dnkimport" />
-        <property name="username" value="bf151b8f82f35f" />
-        <property name="password" value="7161f91a" />
-    </bean>
+        <property name="username" value="root" />
+        <property name="password" value="trumin!" />
+    </bean> -->
     
 <!--jdbc template  -->
-<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">  
+<!-- <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">  
 <property name="dataSource" ref="ds"></property>  
 </bean>
 <bean id='edao' class="com.java.dao.EventDao">
 <property name="jdbcTemplate" ref="jdbcTemplate"/>
-</bean> 
+</bean>  -->
 
 
 

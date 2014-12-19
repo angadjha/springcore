@@ -1,6 +1,6 @@
 package com.java.service;
 
-import java.sql.ResultSet;
+/*import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import javax.swing.tree.RowMapper;
@@ -17,4 +17,4 @@ public class EventService implements org.springframework.jdbc.core.RowMapper<Eve
 		return event;
 	}
 
-}
+}*/

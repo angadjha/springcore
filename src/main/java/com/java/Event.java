@@ -1,4 +1,4 @@
-package com.java;
+/*package com.java;
 
 public class Event {
 
@@ -28,3 +28,4 @@ public class Event {
 	
 	
 }
+*/
