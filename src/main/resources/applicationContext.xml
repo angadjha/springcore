@@ -19,6 +19,10 @@
 <property name="jdbcTemplate" ref="jdbcTemplate"/>
 </bean>  -->
 
+<!-- model bean  -->
+<bean id='helloworld' class="com.java.core.quickstart.HelloWorld">
+<property name="name" value='Hello Spring'></property>
+</bean>
 
 
 </beans>
